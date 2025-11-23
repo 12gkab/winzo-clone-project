@@ -8,46 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 270 50% 10%;
-    --foreground: 0 0% 100%;
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
 
-    --card: 270 40% 15%;
-    --card-foreground: 0 0% 100%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 270 40% 15%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 16 100% 58%;
+    --primary: 265 100% 65%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 280 60% 35%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 270 30% 25%;
-    --muted-foreground: 0 0% 80%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 340 90% 55%;
+    --accent: 340 85% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 270 30% 25%;
-    --input: 270 30% 25%;
-    --ring: 16 100% 58%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 265 100% 65%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    /* WinZo specific colors */
-    --winzo-orange: 16 100% 58%;
-    --winzo-pink: 340 90% 55%;
-    --winzo-purple: 280 60% 35%;
-    --winzo-deep-purple: 270 50% 10%;
+    /* Music app specific colors */
+    --music-purple: 265 100% 65%;
+    --music-pink: 340 85% 60%;
+    --music-surface: 0 0% 10%;
+    --music-surface-variant: 0 0% 15%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(16 100% 58%) 0%, hsl(340 90% 55%) 50%, hsl(280 60% 35%) 100%);
-    --gradient-purple: linear-gradient(180deg, hsl(280 60% 35%) 0%, hsl(270 50% 10%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(280 50% 25%) 0%, hsl(270 40% 20%) 100%);
+    --gradient-player: linear-gradient(180deg, hsl(265 100% 65% / 0.2) 0%, hsl(0 0% 7%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 12%) 0%, hsl(0 0% 8%) 100%);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

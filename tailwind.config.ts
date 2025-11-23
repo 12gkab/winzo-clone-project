@@ -47,16 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        winzo: {
-          orange: "hsl(var(--winzo-orange))",
-          pink: "hsl(var(--winzo-pink))",
-          purple: "hsl(var(--winzo-purple))",
-          "deep-purple": "hsl(var(--winzo-deep-purple))",
+        music: {
+          purple: "hsl(var(--music-purple))",
+          pink: "hsl(var(--music-pink))",
+          surface: "hsl(var(--music-surface))",
+          "surface-variant": "hsl(var(--music-surface-variant))",
         },
       },
       backgroundImage: {
-        'gradient-hero': 'var(--gradient-hero)',
-        'gradient-purple': 'var(--gradient-purple)',
+        'gradient-player': 'var(--gradient-player)',
         'gradient-card': 'var(--gradient-card)',
       },
       borderRadius: {
